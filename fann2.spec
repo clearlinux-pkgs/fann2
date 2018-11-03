@@ -4,12 +4,12 @@
 #
 Name     : fann2
 Version  : 1.1.2
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/80/a1/fed455d25c34a62d4625254880f052502a49461a5dd1b80854387ae2b25f/fann2-1.1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/80/a1/fed455d25c34a62d4625254880f052502a49461a5dd1b80854387ae2b25f/fann2-1.1.2.tar.gz
 Summary  : Fast Artificial Neural Network Library (FANN) Python bindings.
 Group    : Development/Tools
-License  : (LGPL) GENERAL LESSER LGPL-2.1 PUBLIC
+License  : LGPL-2.1
 Requires: fann2-license = %{version}-%{release}
 Requires: fann2-python = %{version}-%{release}
 Requires: fann2-python3 = %{version}-%{release}
@@ -76,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1541266207
+export SOURCE_DATE_EPOCH=1541268534
 python3 setup.py build
 
 %install
