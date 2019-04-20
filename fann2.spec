@@ -4,7 +4,7 @@
 #
 Name     : fann2
 Version  : 1.1.2
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/80/a1/fed455d25c34a62d4625254880f052502a49461a5dd1b80854387ae2b25f/fann2-1.1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/80/a1/fed455d25c34a62d4625254880f052502a49461a5dd1b80854387ae2b25f/fann2-1.1.2.tar.gz
 Summary  : Fast Artificial Neural Network Library (FANN) Python bindings.
